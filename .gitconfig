@@ -1,0 +1,15 @@
+[merge]
+	tool = p4merge
+[diff]
+	tool = p4merge
+[difftool]
+	prompt = false
+[alias]
+	s = status
+	d = diff
+	dc = diff --cached
+	
+[core]
+	pager = less -x1,5
+[credential]
+	helper = manager
