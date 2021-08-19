@@ -65,6 +65,14 @@
         "when": "!editorFocus"
     },
     {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
         "key": "ctrl+shift+alt+o",
         "command": "workbench.action.closeOtherEditors"
     }
