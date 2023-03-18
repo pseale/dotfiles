@@ -58,7 +58,9 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
-
+        
+    use 'Pocco81/auto-save.nvim'
+        
     use "savq/melange-nvim"
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
