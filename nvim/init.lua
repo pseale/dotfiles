@@ -1,5 +1,9 @@
 -- this file was created while watching ThePrimeagen's excellent video guide
 -- I've made major changes, notably shoving everything in one file, and also omitting several things
+
+-- this had to move to the top - not sure why. this bothers me, but not enough for me to figure out why
+vim.g.mapleader = " "
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.cmd [[packadd packer.nvim]]
@@ -47,7 +51,6 @@ vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.updatetime = 50
-vim.g.mapleader = " "
 vim.keymap.set("x", "<leader>p", "\"_dP")
 vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
