@@ -16,7 +16,7 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 require'nvim-treesitter.configs'.setup {
-    ensure_installed = { "rust", "lua", "vim", "help", "toml", "yaml", "javascript" },
+    ensure_installed = { "rust", "lua", "vim", "vimdoc", "toml", "yaml", "javascript" },
     sync_install = false,
     auto_install = true,
     highlight = {
