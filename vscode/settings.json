@@ -43,5 +43,6 @@
     "editor.autoSurround": "never",
     "html.autoClosingTags": false,
     "javascript.autoClosingTags": false,
-    "typescript.autoClosingTags": false
+    "typescript.autoClosingTags": false,
+    "window.newWindowDimensions": "maximized"
 }
