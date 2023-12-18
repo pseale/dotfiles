@@ -1,79 +1,68 @@
-// Place your key bindings in this file to override the defaultsauto[]
-[
-    {
-        "key": "ctrl+shift+s",
-        "command": "workbench.action.files.saveAll"
+{
+    "window.zoomLevel": 2,
+    "workbench.editor.enablePreview": false,
+    "vim.useSystemClipboard": true,
+    "zenMode.centerLayout": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideLineNumbers": false,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "zenMode.silentNotifications": false,
+    "editor.fontFamily": "JetBrains Mono NL, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 20,
+    "debug.console.fontSize": 15,
+    "markdown.preview.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "git.ignoreWindowsGit27Warning": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    {
-        "key": "ctrl+k s",
-        "command": "-workbench.action.files.saveAll"
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
     },
-    {
-        "key": "ctrl+shift+s",
-        "command": "-workbench.action.files.saveAs"
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingQuotes": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "css.completion.completePropertyWithSemicolon": false,
+    "scss.completion.completePropertyWithSemicolon": false,
+    "less.completion.completePropertyWithSemicolon": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "powershell.codeFormatting.newLineAfterCloseBrace": false,
+    "powershell.codeFormatting.whitespaceInsideBrace": false,
+    "powershell.codeFormatting.addWhitespaceAroundPipe": false,
+    "powershell.codeFormatting.whitespaceAfterSeparator": false,
+    "powershell.codeFormatting.whitespaceAroundOperator": false,
+    "powershell.codeFormatting.whitespaceBeforeOpenBrace": false,
+    "powershell.codeFormatting.whitespaceBeforeOpenParen": false,
+    "editor.autoSurround": "never",
+    "html.autoClosingTags": false,
+    "javascript.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+    "redhat.telemetry.enabled": false,
+    "powershell.promptToUpdatePowerShell": false,
+    "yaml.format.enable": false,
+    "vs-kubernetes": {
+        "vs-kubernetes.crd-code-completion": "disabled"
     },
-    {
-        "key": "ctrl+shift+s",
-        "command": "-workbench.action.files.saveLocalFile",
-        "when": "remoteFileDialogVisible"
+    "window.newWindowDimensions": "maximized",
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-p>": false,
+        "<C-/>": false,
+        "<C-z>": false,
+        "<C-i>": false
     },
-    {
-        "key": "ctrl+shift+x",
-        "command": "workbench.action.toggleZenMode"
-    },
-    {
-        "key": "ctrl+k z",
-        "command": "-workbench.action.toggleZenMode"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "-workbench.action.search.toggleQueryDetails",
-        "when": "searchViewletVisible"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "-workbench.action.togglePanel"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+shift+alt+r",
-        "command": "copyRelativeFilePath"
-    },
-    {
-        "key": "ctrl+k ctrl+shift+c",
-        "command": "-copyRelativeFilePath",
-        "when": "!editorFocus"
-    },
-    {
-        "key": "ctrl+shift+alt+p",
-        "command": "copyFilePath"
-    },
-    {
-        "key": "shift+alt+c",
-        "command": "-copyFilePath",
-        "when": "!editorFocus"
-    },
-    {
-        "key": "ctrl+shift+b",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+b",
-        "command": "-workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+shift+alt+o",
-        "command": "workbench.action.closeOtherEditors"
+    "vim.highlightedyank.enable": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
     }
-]
+}
